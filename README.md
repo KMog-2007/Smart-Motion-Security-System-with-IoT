@@ -86,3 +86,35 @@ PIR Motion Sensor
         ↓
 Live Motion Status
      + Graph
+
+##File Description
+
+File	Description
+sketch.ino	ESP32 program for motion detection and Adafruit IO communication
+diagram.json	Wokwi circuit configuration
+libraries.txt	Required library information
+README.md	Project documentation
+screenshots/	Project, feed, and dashboard screenshots
+
+
+## Security Note
+
+The Adafruit IO AIO Key is a private credential.
+The actual AIO Key should not be uploaded to GitHub or shared publicly.
+
+##Platform
+
+This project was developed and tested using:
+- Wokwi ESP32 Simulator
+- Adafruit IO Cloud Platform
+
+##Conclusion
+
+This project demonstrates how a basic motion security system can be connected to an IoT cloud platform.
+By combining an ESP32, PIR motion sensor, Wi-Fi, MQTT, and Adafruit IO, motion data can be detected, transmitted to the cloud, and monitored through a web dashboard in real time.
+
+##Author
+
+K Moganaa
+Electronic Communication Student
+Sathyabama Institute of Science and Technology
